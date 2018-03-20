@@ -1,0 +1,27 @@
+{
+    "name": "brandonregard/4d-php5.4.11-calendars",
+    "description": "4D/PHP interface to Apple, Google, and Microsoft Cloud calendars.",
+    "type": "library",
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/brandonregard/CalDAVClient"
+    }, {
+        "type": "vcs",
+        "url": "https://github.com/brandonregard/oauth2-client"
+    }],
+    "require": {
+        "smarcet/caldavclient": "dev-4dv15.4HF3-php5.4.11-patches",
+        "google/apiclient": "^2.0",
+        "nesbot/carbon": "^1.23",
+        "microsoft/microsoft-graph": "dev-master",
+        "league/oauth2-client": "dev-4dv15.4HF3-php5.4.11-patches"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brandon Regard",
+            "email": "brandon@printpoint.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
